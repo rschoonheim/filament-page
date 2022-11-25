@@ -1,0 +1,21 @@
+{
+    "name": "rschoonheim/filament-page",
+    "description": "Page builder for FilamentPHP",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Romano Schoonheim",
+            "email": "romano@romanoschoonheim.nl"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Rschoonheim\\FilamentPage\\": "src/"
+        }
+    },
+    "require": {},
+    "autoload-dev": {},
+    "require-dev": {
+        "orchestra/testbench": "^7.14"
+    }
+}
