@@ -1,7 +1,7 @@
 # Advanced Page Builder
 ***
 Filament Page Builder is a plugin for 
-[filamentPHP](https://filamentphp.com/). Aiming to provide a easier way to
+[FilamentPHP](https://filamentphp.com/). Aiming to provide a easier way to
 build web pages. 
 
 ## Work in progress
