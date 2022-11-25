@@ -1,14 +1,10 @@
-# Page Builder Plugin For Filament
+# Advanced Page Builder
 ***
+Filament Page Builder is a plugin for 
+[filamentPHP](https://filamentphp.com/). Aiming to provide a easier way to
+build web pages. 
 
-
-
-### Filament 
-Admin panel, form builder and table builder for Laravel. Built with the TALL stack. Designed for humans.
-
-https://filamentphp.com/
-
-
-
+## Work in progress
+This plugin is in early development. Meaning it has no features yes..
 
 
