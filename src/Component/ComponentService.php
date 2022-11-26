@@ -17,8 +17,9 @@ class ComponentService
      * Scan the given directory for component definitions and load them
      * into the component registry.
      *
-     * @param string $directoryPath
+     * @param  string  $directoryPath
      * @return void
+     *
      * @throws InvalidComponentDefinitionException
      */
     public function loadFrom(string $directoryPath): void
@@ -35,8 +36,9 @@ class ComponentService
      * Scan the given directory and its subdirectories for component definitions and load them
      * into the component registry.
      *
-     * @param string $directoryPath
+     * @param  string  $directoryPath
      * @return void
+     *
      * @throws InvalidComponentDefinitionException
      */
     public function loadAllFrom(string $directoryPath): void
@@ -68,12 +70,8 @@ class ComponentService
             );
 
             if ($validator->fails()) {
-                throw new InvalidComponentDefinitionException('Component definition is invalid. File: ' . $file . ' Error: ' . $validator->errors());
+                throw new InvalidComponentDefinitionException('Component definition is invalid. File: '.$file.' Error: '.$validator->errors());
             }
-
-
-
-
         }
     }
 }

@@ -21,5 +21,4 @@ interface ComponentTypes
      * @var string
      */
     public const STANDARD = 'standard';
-
 }

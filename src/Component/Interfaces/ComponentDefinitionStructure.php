@@ -8,8 +8,6 @@ namespace Rschoonheim\FilamentPage\Component\Interfaces;
  * This file describes what a component definition structure
  * looks like. It is used to validate the structure of a
  * YML component definition.
- *
- * @package Rschoonheim\FilamentPage\Component
  */
 interface ComponentDefinitionStructure
 {

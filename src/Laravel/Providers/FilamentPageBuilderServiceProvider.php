@@ -12,7 +12,8 @@ use JetBrains\PhpStorm\NoReturn;
  */
 class FilamentPageBuilderServiceProvider extends ServiceProvider
 {
-    #[NoReturn] public function register(): void
+    #[NoReturn]
+    public function register(): void
     {
     }
 }

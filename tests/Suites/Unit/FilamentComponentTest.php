@@ -23,10 +23,7 @@ class FilamentComponentTest extends BaseTestCase
     public function can_load_component_definitions_from_given_path(): void
     {
         FilamentComponent::loadFrom(
-            $this->getUtilitiesDirectory() . '/Fixtures/Component/Definitions'
+            $this->getUtilitiesDirectory().'/Fixtures/Component/Definitions'
         );
-
-
     }
-
 }

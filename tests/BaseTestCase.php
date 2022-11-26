@@ -18,6 +18,6 @@ abstract class BaseTestCase extends TestCase
 
     protected function getUtilitiesDirectory(): string
     {
-        return __DIR__ . '/Utilities';
+        return __DIR__.'/Utilities';
     }
 }
