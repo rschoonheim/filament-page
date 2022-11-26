@@ -6,5 +6,3 @@ build web pages.
 
 ## Work in progress
 This plugin is in early development. Meaning it has no features yes..
-
-

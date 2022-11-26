@@ -13,9 +13,22 @@
             "Rschoonheim\\FilamentPage\\": "src/"
         }
     },
-    "require": {},
-    "autoload-dev": {},
+    "require": {
+        "symfony/yaml": "^6.0"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Rschoonheim\\FilamentPage\\Tests\\": "tests/"
+        }
+    },
     "require-dev": {
         "orchestra/testbench": "^7.14"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Rschoonheim\\FilamentPage\\Laravel\\Providers\\FilamentPageBuilderServiceProvider"
+            ]
+        }
     }
 }

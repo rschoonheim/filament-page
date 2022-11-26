@@ -1,0 +1,8 @@
+name: 'Example Component'
+type: 'standard'
+
+resources:
+  website_view:
+    path: 'Resources/views/filament_page_builder/website'
+  admin_view:
+    path: 'Resources/views/filament_page_builder/admin'
